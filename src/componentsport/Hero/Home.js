@@ -47,15 +47,15 @@ const Home = () => {
               on a daily basis .{" "}
             </p>
 
-            <a href="" className="hero-btn d-flex">
-              <button className="resumeBtn"
+            <div className="hero-btn d-flex">
+              <a href="#" className="resumeBtn"
                 onClick={() => {
                   downloadResume(RESUME_URL);
                 }}
               >
                 Download Resume
-              </button>
-            </a>
+              </a>
+            </div>
           </div>
           <div className="right">
             <div className="right-img">
