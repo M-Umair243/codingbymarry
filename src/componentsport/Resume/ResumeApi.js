@@ -27,7 +27,7 @@ const ResumeApi=[
         id:4,
         category:"experience",
         Year:"Bird View Logic Business Hub Academy",
-        title:"Instructor (Web Development)",
+        title:"Student (Web Development)",
         desc:"Skilled in coding and teaching, they simplify complex concepts, mentoring students to excel in web development.Web development instructors blend technical expertise and teaching skills, empowering learners to master programming and build dynamic websites.",
         rate:"Now"
     },
