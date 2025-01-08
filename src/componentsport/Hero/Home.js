@@ -47,7 +47,7 @@ const Home = () => {
               on a daily basis .{" "}
             </p>
 
-            <div className="hero-btn d-flex">
+            <a href="" className="hero-btn d-flex">
               <button className="resumeBtn"
                 onClick={() => {
                   downloadResume(RESUME_URL);
@@ -55,55 +55,7 @@ const Home = () => {
               >
                 Download Resume
               </button>
-              {/* <div className="col-1">
-                <h4>FIND WITH ME</h4>
-                <div className="button">
-                  <button className="btn-shadow">
-                    <a href="https://www.facebook.com/share/kv3cnsJUNoKV3Bxt/" target="_blank">
-                      {" "}
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-                  </button>
-                  <button className="btn-shadow">
-                    <a href="https://www.instagram.com/muhammadumair.243/profilecard/?igsh=MnVnYXpoZ2tud2Zj" target="_blank">
-                      {" "}
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                  </button>
-                  <button className="btn-shadow">
-                    <a href=" https://www.linkedin.com/in/muhammadumair243/" target="_blank">
-                      {" "}
-                      <i className="fa-brands fa-linkedin-in"></i>
-                    </a>
-                  </button>
-                </div>
-              </div>
-              <div className="col-1">
-                <h4>BEST SKILLS ON</h4>
-                <button className="btn-shadow">
-                <a href="https://www.linkedin.com/in/muhammadumair243/" target="_blank">
-                      {" "}
-                      <img src={skill1} alt="" />
-                    </a>
-                  
-                </button>
-                <button className="btn-shadow">
-                <a href="https://github.com/M-Umair243" target="_blank">
-                      {" "}
-                      <img src={skill2} alt="" />
-                    </a>
-               
-                </button>
-                <button className="btn-shadow">
-                
-                  <a href="https://www.figma.com/proto/uGMiOr0sehwI3XzSqats5c/Learn-React-with-10-Projects-(Copy)?node-id=0-1&t=m0mu4vncOseIrDR1-1" target="_blank">
-                      {" "}
-                      <img src={skill3} alt="" />
-                    </a>
-               
-                </button>
-              </div> */}
-            </div>
+            </a>
           </div>
           <div className="right">
             <div className="right-img">
