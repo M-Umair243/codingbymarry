@@ -5,7 +5,7 @@ import hero from "../pics/hero-img.png";
 import skill1 from "../pics/linkdin.png";
 import skill2 from "../pics/github.png";
 import skill3 from "../pics/figma.png";
-const RESUME_URL = "/newresume.pdf";
+const RESUME_URL = "/mycv/resume.pdf";
 
 const Home = () => {
   const downloadResume = (url) => {
