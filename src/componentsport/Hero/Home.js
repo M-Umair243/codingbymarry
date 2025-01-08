@@ -5,7 +5,8 @@ import hero from "../pics/hero-img.png";
 import skill1 from "../pics/linkdin.png";
 import skill2 from "../pics/github.png";
 import skill3 from "../pics/figma.png";
-const RESUME_URL = "http://localhost:3000/myresume.pdf";
+const RESUME_URL = "/myresume.pdf";
+
 const Home = () => {
   const downloadResume = (url) => {
     const fileName = url.split("/").pop();
@@ -48,13 +49,13 @@ const Home = () => {
             </p>
 
             <div className="hero-btn d-flex">
-              <a href="#" className="resumeBtn"
+              <button className="resumeBtn"
                 onClick={() => {
                   downloadResume(RESUME_URL);
                 }}
               >
                 Download Resume
-              </a>
+              </button>
             </div>
           </div>
           <div className="right">
