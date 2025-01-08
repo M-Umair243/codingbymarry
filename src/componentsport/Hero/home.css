@@ -1,0 +1,141 @@
+.hero {
+  top: 110px;
+  position: relative;
+  margin-bottom: 15%;
+}
+.hero h3 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.hero h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero h1 span {
+  color: #ff014f;
+}
+.hero h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ff014f;
+}
+.hero h2 span {
+  color: #000;
+}
+.hero p {
+  color: #878e99;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.hero-btn {
+  /* margin-top: 30%; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 20%;
+}
+/* .hero-btn h4 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #43474b;
+  font-size: 15px;
+  margin: 30px 0 30px 0;
+}
+.hero-btn button {
+  margin-right: 30px;
+}
+.hero-btn i {
+  font-size: 20px;
+}
+.hero-btn button img {
+  width: 20px;
+
+  height: 20px;
+} */
+.hero .left {
+  margin-right: 10%;
+  margin-top: 6%;
+}
+.hero .right {
+  width: 40%;
+  position: relative;
+}
+.hero .right-img {
+  background: linear-gradient(145deg, #e2ebec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+  border-radius: 10px;
+  height: 580px;
+  width: 510px;
+  margin-top: 20%;
+}
+.hero .right-img img {
+  position: absolute;
+  top: 5px;
+  right: 0%;
+  width: 510px;
+}
+/* .resumeBtn {
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-family: 'merienda';
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #807b7b;
+} */
+.resumeBtn {
+  background: linear-gradient(145deg, #e2ebec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+  padding: 20px 35px;
+  border-radius: 10px;
+  font-family: "merienda";
+  cursor: pointer;
+  color: #ff014f;
+}
+
+.resumeBtn:hover {
+  background-color: #ff014f;
+  color: #fff;
+}
+/* media query */
+
+@media (max-width: 768px) {
+  .hero .right,
+  .hero .left {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .hero .f-flex {
+    flex-direction: column-reverse;
+  }
+  .hero .right-img {
+    width: 95%;
+    margin-top: 0;
+  }
+  .hero .right-img img {
+    right: 15%;
+    top: -17%;
+  }
+}
+@media (max-width: 425px) {
+  .hero {
+    top: 0;
+  }
+  .hero .right-img {
+    height: 400px;
+    margin-top: 10%;
+  }
+  .hero .right-img img {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 5%;
+  }
+  .hero .hero-btn {
+    width: 100%;
+    display: block;
+  }
+  .hero .col-1 {
+    width: 100%;
+  }
+}
